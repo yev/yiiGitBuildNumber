@@ -9,7 +9,7 @@ Installation instructions
 -------------------
 
 Copy the  *GitBuildNumberComponent.php* file to your webapp   */protected/components/* folder.
-  wget 
+  `wget https://github.com/yev/yiiGitBuildNumber/blob/master/src/GitBuildNumberComponent.php`
   
 Configuration instruction
 -------------------
@@ -17,9 +17,9 @@ Configuration instruction
 After downloading and installing the component into right place you have to tell yii framework about tne new component:
 
 1. Edit your webapp/protected/config/main.php file
-2. And add the following somewhere in the *components* section - 'git'=>array(
+2. And add the following somewhere in the *components* section - `'git'=>array(
             'class'=>'GitBuildNumberComponent',
-        ),
+        )`
 
 
 
