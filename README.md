@@ -30,7 +30,8 @@ After downloading and installing the component into right place you have to tell
 2. And add the following somewhere in the *components* section - `'git'=>array(
             'class'=>'GitBuildNumberComponent',
         )`
-
+3. After this modification your `protected/config/main.php` file may looks like this:
+![](https://raw.github.com/yev/yiiGitBuildNumber/master/img/BuildNumberYiiConfiguration.jpg)
 
 
 Using
