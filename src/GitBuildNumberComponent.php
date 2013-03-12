@@ -13,8 +13,9 @@ class GitBuildNumberComponent extends CApplicationComponent
     const GIT_COMMAND_LAST_COMMIT_TIME = "git log --pretty=format:'%ci' -n 1";
 
 
-    /*
+    /**
      * To prevent users from untested results, we check the command output before continue
+     * @throw CException if there is any error from the underlying command
      */
     private function checkExecOutput($gitCommand, $execReturnVal)
     {
